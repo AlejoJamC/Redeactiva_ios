@@ -22,12 +22,6 @@
 		B266A62719CBF50A007EF362 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B266A62619CBF50A007EF362 /* AppDelegate.m */; };
 		B266A62A19CBF50A007EF362 /* Deporte_Appcesible.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B266A62819CBF50A007EF362 /* Deporte_Appcesible.xcdatamodeld */; };
 		B266A62C19CBF50A007EF362 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B266A62B19CBF50A007EF362 /* Images.xcassets */; };
-		B266A63319CBF50A007EF362 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A63219CBF50A007EF362 /* XCTest.framework */; };
-		B266A63419CBF50A007EF362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A61419CBF50A007EF362 /* Foundation.framework */; };
-		B266A63519CBF50A007EF362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A61819CBF50A007EF362 /* UIKit.framework */; };
-		B266A63619CBF50A007EF362 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A61A19CBF50A007EF362 /* CoreData.framework */; };
-		B266A63E19CBF50A007EF362 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B266A63C19CBF50A007EF362 /* InfoPlist.strings */; };
-		B266A64019CBF50A007EF362 /* Deporte_AppcesibleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B266A63F19CBF50A007EF362 /* Deporte_AppcesibleTests.m */; };
 		B266A64A19CBF54E007EF362 /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B266A64919CBF54E007EF362 /* Storyboard_iPad.storyboard */; };
 		B266A64D19CBF586007EF362 /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B266A64C19CBF586007EF362 /* app.jpg */; };
 		B266A64F19CBF769007EF362 /* top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B266A64E19CBF769007EF362 /* top.jpg */; };
@@ -93,16 +87,6 @@
 		B2B0EC791A36495800FDC0F0 /* recreacionSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0EC781A36495800FDC0F0 /* recreacionSingleViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B266A63719CBF50A007EF362 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B266A60919CBF50A007EF362 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B266A61019CBF50A007EF362;
-			remoteInfo = "Deporte Appcesible";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		B210B12D1A00367600E76CF3 /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
 		B239BD1B19F8691900E9C20F /* btn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_bg.png; sourceTree = "<group>"; };
@@ -124,11 +108,7 @@
 		B266A62619CBF50A007EF362 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B266A62919CBF50A007EF362 /* Deporte_Appcesible.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Deporte_Appcesible.xcdatamodel; sourceTree = "<group>"; };
 		B266A62B19CBF50A007EF362 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B266A63119CBF50A007EF362 /* RedeactivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedeactivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B266A63219CBF50A007EF362 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B266A63B19CBF50A007EF362 /* Deporte AppcesibleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Deporte AppcesibleTests-Info.plist"; sourceTree = "<group>"; };
-		B266A63D19CBF50A007EF362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B266A63F19CBF50A007EF362 /* Deporte_AppcesibleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deporte_AppcesibleTests.m; sourceTree = "<group>"; };
 		B266A64919CBF54E007EF362 /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
 		B266A64C19CBF586007EF362 /* app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app.jpg; sourceTree = "<group>"; };
 		B266A64E19CBF769007EF362 /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
@@ -247,17 +227,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B266A62E19CBF50A007EF362 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B266A63319CBF50A007EF362 /* XCTest.framework in Frameworks */,
-				B266A63619CBF50A007EF362 /* CoreData.framework in Frameworks */,
-				B266A63519CBF50A007EF362 /* UIKit.framework in Frameworks */,
-				B266A63419CBF50A007EF362 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -290,7 +259,6 @@
 				B2B077B519CD585600711F33 /* compartirViewController.h */,
 				B2B077B619CD585600711F33 /* compartirViewController.m */,
 				B266A61C19CBF50A007EF362 /* Deporte Appcesible */,
-				B266A63919CBF50A007EF362 /* Deporte AppcesibleTests */,
 				B266A61319CBF50A007EF362 /* Frameworks */,
 				B266A61219CBF50A007EF362 /* Products */,
 			);
@@ -300,7 +268,6 @@
 			isa = PBXGroup;
 			children = (
 				B266A61119CBF50A007EF362 /* Redeactiva.app */,
-				B266A63119CBF50A007EF362 /* RedeactivaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,24 +315,6 @@
 				B266A61F19CBF50A007EF362 /* InfoPlist.strings */,
 				B266A62219CBF50A007EF362 /* main.m */,
 				B266A62419CBF50A007EF362 /* Redeactiva-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B266A63919CBF50A007EF362 /* Deporte AppcesibleTests */ = {
-			isa = PBXGroup;
-			children = (
-				B266A63F19CBF50A007EF362 /* Deporte_AppcesibleTests.m */,
-				B266A63A19CBF50A007EF362 /* Supporting Files */,
-			);
-			path = "Deporte AppcesibleTests";
-			sourceTree = "<group>";
-		};
-		B266A63A19CBF50A007EF362 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B266A63B19CBF50A007EF362 /* Deporte AppcesibleTests-Info.plist */,
-				B266A63C19CBF50A007EF362 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -540,24 +489,6 @@
 			productReference = B266A61119CBF50A007EF362 /* Redeactiva.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B266A63019CBF50A007EF362 /* RedeactivaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B266A64619CBF50A007EF362 /* Build configuration list for PBXNativeTarget "RedeactivaTests" */;
-			buildPhases = (
-				B266A62D19CBF50A007EF362 /* Sources */,
-				B266A62E19CBF50A007EF362 /* Frameworks */,
-				B266A62F19CBF50A007EF362 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B266A63819CBF50A007EF362 /* PBXTargetDependency */,
-			);
-			name = RedeactivaTests;
-			productName = "Deporte AppcesibleTests";
-			productReference = B266A63119CBF50A007EF362 /* RedeactivaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -569,9 +500,6 @@
 				TargetAttributes = {
 					B266A61019CBF50A007EF362 = {
 						DevelopmentTeam = 3PA3E5U5FE;
-					};
-					B266A63019CBF50A007EF362 = {
-						TestTargetID = B266A61019CBF50A007EF362;
 					};
 				};
 			};
@@ -588,7 +516,6 @@
 			projectRoot = "";
 			targets = (
 				B266A61019CBF50A007EF362 /* Redeactiva */,
-				B266A63019CBF50A007EF362 /* RedeactivaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -625,14 +552,6 @@
 				B266A64D19CBF586007EF362 /* app.jpg in Resources */,
 				B266A67819CC233D007EF362 /* 1.jpg in Resources */,
 				B239BD2019F8750500E9C20F /* input_bg.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B266A62F19CBF50A007EF362 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B266A63E19CBF50A007EF362 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,37 +600,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B266A62D19CBF50A007EF362 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B266A64019CBF50A007EF362 /* Deporte_AppcesibleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B266A63819CBF50A007EF362 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B266A61019CBF50A007EF362 /* Redeactiva */;
-			targetProxy = B266A63719CBF50A007EF362 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B266A61F19CBF50A007EF362 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B266A62019CBF50A007EF362 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B266A63C19CBF50A007EF362 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B266A63D19CBF50A007EF362 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -835,46 +730,6 @@
 			};
 			name = Release;
 		};
-		B266A64719CBF50A007EF362 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Deporte Appcesible.app/Deporte Appcesible";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Deporte Appcesible/Deporte Appcesible-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Deporte AppcesibleTests/Deporte AppcesibleTests-Info.plist";
-				PRODUCT_NAME = RedeactivaTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		B266A64819CBF50A007EF362 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Deporte Appcesible.app/Deporte Appcesible";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Deporte Appcesible/Deporte Appcesible-Prefix.pch";
-				INFOPLIST_FILE = "Deporte AppcesibleTests/Deporte AppcesibleTests-Info.plist";
-				PRODUCT_NAME = RedeactivaTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -892,15 +747,6 @@
 			buildConfigurations = (
 				B266A64419CBF50A007EF362 /* Debug */,
 				B266A64519CBF50A007EF362 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B266A64619CBF50A007EF362 /* Build configuration list for PBXNativeTarget "RedeactivaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B266A64719CBF50A007EF362 /* Debug */,
-				B266A64819CBF50A007EF362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
