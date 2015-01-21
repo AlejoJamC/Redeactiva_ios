@@ -15,6 +15,7 @@
     
 }
 - (IBAction)compartir:(id)sender;
+- (IBAction)Salir:(id)sender;
 
 @property (retain,strong) MPMoviePlayerController *player;
 

@@ -152,7 +152,7 @@
                 [cell.cargando stopAnimating];
                 cell.cargando.hidden=YES;
                 
-                cell.titulo.text=@"No hay más deportes para visualizar";
+                cell.titulo.text=@"No hay más información para visualizar";
             }
             
             _cargando = false;

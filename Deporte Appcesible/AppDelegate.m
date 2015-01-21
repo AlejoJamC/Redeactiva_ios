@@ -56,7 +56,7 @@
         
     }
     
-    app().urlServicio = @"http://ra.artcreative.co";
+    app().urlServicio = @"http://190.248.53.209/redeactiva/index.php";
     app().userid = @"7";
     return YES;
 }

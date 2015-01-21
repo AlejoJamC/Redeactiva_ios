@@ -179,7 +179,7 @@
         }
     }else{
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Mensaje"
-                                                        message:@"Lo sentimos no se ha podido guardar su informacón en este momento, intentelo de nuevo más tarde..."
+                                                        message:@"Tu correo ya se encuentra registrado. Inicia sesión o recupera tu contraseña para poder ingresar."
                                                        delegate:self
                                               cancelButtonTitle:@"OK"
                                               otherButtonTitles:nil];

@@ -176,8 +176,27 @@
             
             
             [cell.titulo setText:[video valueForKeyPath:@"nombre"]];
-            [cell.descripcion setText:[video valueForKeyPath:@"descripcion"]];
-            [cell.contacto setText:[video valueForKeyPath:@"contacto"]];
+            
+            NSString *url = [video valueForKeyPath:@"imagen"];
+            
+            NSLog(@"url a cargar %@",url);
+            if (![url isKindOfClass:[NSNull class]]) {
+                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                    
+                    // Cargamos la miniatura
+                    NSString *urlImagen = url;
+                    
+                    NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: urlImagen]];
+                    
+                    dispatch_sync(dispatch_get_main_queue(), ^{
+                        [cell.imagen setImage:[UIImage imageWithData: imageData]];
+                        [cell.cargando stopAnimating];
+                        cell.cargando.hidden = true;
+                        
+                        
+                    });
+                });
+            }            
             
             [cell.cargando stopAnimating];
             cell.cargando.hidden = YES;
@@ -185,18 +204,15 @@
         else{
             if (!_noMoreResultsAvail) {
                 cell.titulo.text=nil;
-                cell.descripcion.text = nil;
-                cell.contacto.text = nil;
+                cell.imagen.image = nil;
                 [cell.cargando startAnimating];
                 cell.cargando.hidden = false;
             }
             else{
                 [cell.cargando stopAnimating];
                 cell.cargando.hidden=YES;
-                cell.titulo.text=nil;
-                cell.descripcion.text = nil;
-                cell.contacto.text = nil;
-                cell.descripcion.text=@"No hay más contenido para visualizar";
+                cell.imagen.image = nil;
+                cell.titulo.text=@"No hay más contenido para visualizar";
                 
             }
             
@@ -237,9 +253,6 @@
         [self animar:800];
         estado = @"off";*/
     }else{
-        static NSString *CellIdentifier = @"cellVideo";
-        coachingTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-        
         if(indexPath.row < [filasArray count]){
             if ([estado isEqualToString:@"on"]) {
                 [self animar:800];

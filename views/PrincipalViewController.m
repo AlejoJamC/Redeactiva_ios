@@ -98,6 +98,17 @@
     
 }
 
+- (IBAction)Salir:(id)sender {
+    app().userid = [NSString stringWithFormat:@"0"];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:app().userid forKey:@"userIdRedeactiva"];
+    [defaults synchronize];
+    
+    [self.navigationController popToRootViewControllerAnimated:NO];
+    
+    [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"splash_ipad"] animated:YES];
+}
+
 -(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     
     NSString *txt = @"Te Invito a Descargar esta App, donde encontraras la mejor información";

@@ -9,7 +9,7 @@
 #import "coachingTableViewCell.h"
 
 @implementation coachingTableViewCell
-@synthesize titulo, descripcion, contacto,cargando;
+@synthesize titulo, imagen, cargando;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

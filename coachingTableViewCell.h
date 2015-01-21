@@ -10,7 +10,6 @@
 
 @interface coachingTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titulo;
-@property (weak, nonatomic) IBOutlet UILabel *descripcion;
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *cargando;
-@property (weak, nonatomic) IBOutlet UILabel *contacto;
 @end

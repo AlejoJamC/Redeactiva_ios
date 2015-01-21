@@ -63,7 +63,19 @@ const int kLoadingCellTag = 1273;
     NSMutableDictionary  * json = [NSJSONSerialization JSONObjectWithData:data options: NSJSONReadingMutableContainers error: &error];
     
     //self.filasArray = [json objectForKey:@"data"];
-    [self.filasArray addObjectsFromArray:[json objectForKey:@"data"]];
+    NSMutableArray *tempArray = [NSMutableArray array];
+    NSMutableIndexSet *indexes = [NSMutableIndexSet indexSet];
+    tempArray = [json objectForKey:@"data"];
+    for (NSInteger i = 0; i< [tempArray count]; i++) {
+        NSDictionary *d = [tempArray objectAtIndex:i];
+        if ([[[d valueForKeyPath:@"deporte"] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] isEqualToString:@""] || [[[d valueForKeyPath:@"descripciondeldeporte"] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] isEqualToString:@""] || [[[d valueForKeyPath:@"logo"] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] isEqualToString:@""] ) {
+            [indexes addIndex:i];
+        }
+    }
+    
+    [tempArray removeObjectsAtIndexes:indexes];
+    
+    [self.filasArray addObjectsFromArray:tempArray];
     _totalPages = [[json objectForKey:@"total_pages"] intValue];
     _currentPage++;
     

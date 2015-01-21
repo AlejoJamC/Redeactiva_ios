@@ -30,7 +30,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    urlServicioRutinas = [NSString stringWithFormat:@"%@/rutina.php", app().urlServicio];
+    urlServicioRutinas = [NSString stringWithFormat:@"http://190.248.53.209/redeactiva/rutina.php"];
     work = false;
 }
 
