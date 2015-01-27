@@ -85,6 +85,10 @@
 		B2B077EA19CED61200711F33 /* galeriaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B077E919CED61200711F33 /* galeriaTableViewCell.m */; };
 		B2B077ED19CEDB6B00711F33 /* reglamentoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B077EC19CEDB6B00711F33 /* reglamentoViewController.m */; };
 		B2B0EC791A36495800FDC0F0 /* recreacionSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0EC781A36495800FDC0F0 /* recreacionSingleViewController.m */; };
+		B2C61F921A781BCB00DA7A50 /* Informacion.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C61F911A781BCB00DA7A50 /* Informacion.png */; };
+		B2C61F941A782BB100DA7A50 /* logo_coldeportes2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C61F931A782BB100DA7A50 /* logo_coldeportes2.jpg */; };
+		B2C61F961A782C0600DA7A50 /* mintic.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C61F951A782C0600DA7A50 /* mintic.png */; };
+		B2C61F981A78366300DA7A50 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C61F971A78366300DA7A50 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -201,6 +205,10 @@
 		B2B077EC19CEDB6B00711F33 /* reglamentoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reglamentoViewController.m; sourceTree = "<group>"; };
 		B2B0EC771A36495800FDC0F0 /* recreacionSingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recreacionSingleViewController.h; sourceTree = "<group>"; };
 		B2B0EC781A36495800FDC0F0 /* recreacionSingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recreacionSingleViewController.m; sourceTree = "<group>"; };
+		B2C61F911A781BCB00DA7A50 /* Informacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Informacion.png; sourceTree = "<group>"; };
+		B2C61F931A782BB100DA7A50 /* logo_coldeportes2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_coldeportes2.jpg; sourceTree = "<group>"; };
+		B2C61F951A782C0600DA7A50 /* mintic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mintic.png; sourceTree = "<group>"; };
+		B2C61F971A78366300DA7A50 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +241,7 @@
 		B266A60819CBF50A007EF362 = {
 			isa = PBXGroup;
 			children = (
+				B2C61F971A78366300DA7A50 /* Launch Screen.xib */,
 				B28EC13C1A1E9748001506AC /* perfil */,
 				B2A8C00A1A0C498A00904DF4 /* historias */,
 				B2B077DB19CEC56100711F33 /* deportes */,
@@ -322,6 +331,9 @@
 		B266A64B19CBF57C007EF362 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				B2C61F951A782C0600DA7A50 /* mintic.png */,
+				B2C61F931A782BB100DA7A50 /* logo_coldeportes2.jpg */,
+				B2C61F911A781BCB00DA7A50 /* Informacion.png */,
 				B29F51F41A0AB0CE000366C9 /* map5.png */,
 				B29F51F51A0AB0CE000366C9 /* phone25.png */,
 				B210B12D1A00367600E76CF3 /* white.jpg */,
@@ -536,6 +548,8 @@
 				B266A62C19CBF50A007EF362 /* Images.xcassets in Resources */,
 				B266A66619CC16BD007EF362 /* nuevo_evento.png in Resources */,
 				B266A64A19CBF54E007EF362 /* Storyboard_iPad.storyboard in Resources */,
+				B2C61F921A781BCB00DA7A50 /* Informacion.png in Resources */,
+				B2C61F941A782BB100DA7A50 /* logo_coldeportes2.jpg in Resources */,
 				B266A66719CC16BD007EF362 /* compartir.png in Resources */,
 				B26F427919CCD53600922587 /* entranamiento.png in Resources */,
 				B266A66B19CC16BD007EF362 /* perfil.png in Resources */,
@@ -548,8 +562,10 @@
 				B242528419FAE84F00A0FBA7 /* redeactiva_logo.png in Resources */,
 				B266A65119CBF7AA007EF362 /* Storyboard_iPhone.storyboard in Resources */,
 				B242528219FAE39200A0FBA7 /* recreativas.png in Resources */,
+				B2C61F961A782C0600DA7A50 /* mintic.png in Resources */,
 				B29F51F71A0AB0CE000366C9 /* phone25.png in Resources */,
 				B266A64D19CBF586007EF362 /* app.jpg in Resources */,
+				B2C61F981A78366300DA7A50 /* Launch Screen.xib in Resources */,
 				B266A67819CC233D007EF362 /* 1.jpg in Resources */,
 				B239BD2019F8750500E9C20F /* input_bg.png in Resources */,
 			);
